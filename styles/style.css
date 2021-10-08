@@ -13,6 +13,11 @@
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
+  position: relative;
+  display: flex;
+  /* flex-direction: column;
+  justify-content: center; */
+  align-items: center;
   /* выше установили ограничения для секции */
 }
 
@@ -20,6 +25,12 @@
 .header__square-pic {
   height: 568px;
   width: 568px;
+  position: absolute;
+  top:64px;
+  right:0;
+  bottom: 0;
+  background-color: blue;
+  z-index: -1;
 }
 
 /* и элемента с модификатором вида ключ-значение */
@@ -28,4 +39,34 @@
   color: white;
   margin-right: 0;
   margin-top: 80px;
+}
+.logo__place_header{
+  position: absolute;
+  top:30px;
+  left:64px;
+  z-index: 1;
+}
+.header__title{
+  position: absolute;
+  left: 64px;
+  z-index: 1;
+  width: 730px;
+  line-height: 96px;
+  font-size: 102px;
+  font-style: bold;
+}
+.header__subtitle{
+  position: absolute;
+  bottom: 30px;
+  left:64px;
+  width: 388px;
+  line-height: 25px;
+  font-size:18px;
+  font-style: normal;
+  z-index: 1;
+}
+.header__main-illustration{
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
 }
