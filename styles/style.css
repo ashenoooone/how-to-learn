@@ -16,6 +16,7 @@
   position: relative;
   display: flex;
   align-items: center;
+  background-color: #f2f2f2;
   /* выше установили ограничения для секции */
 }
 
@@ -28,7 +29,7 @@
   right: 0;
   bottom: 0;
   background-color: #2f80ed;
-  z-index: -1;
+  z-index: 0;
 }
 
 /* и элемента с модификатором вида ключ-значение */
@@ -67,6 +68,7 @@
   position: absolute;
   bottom: 0px;
   right: 0px;
+  z-index: 1;
 }
 .description {
   display: flex;
@@ -135,7 +137,7 @@
 }
 .table__text {
   line-height: 1.2;
-  font-style: 18px;
+  font-size: 18px;
   font-weight: normal;
   margin: 20px 0;
 }
@@ -146,4 +148,45 @@
   display: flex;
   justify-content: space-between;
   margin-top: 60px;
+}
+.feynman {
+  height: 890px;
+  position: relative;
+  background-color: #f2f2f2;
+  z-index: 0;
+  display: flex;
+  flex-direction: column;
+}
+.feynman__title {
+  line-height: 1.15;
+  font-size: 120px;
+  font-weight: bold;
+  width: 648px;
+  text-align: center;
+  margin: 100px auto 70px auto;
+}
+.feynman__subtitle {
+  line-height: 51px;
+  font-size: 36px;
+  text-align: center;
+  font-weight: normal;
+  z-index: auto;
+  margin: 0px;
+}
+.feynman__link {
+  position: absolute;
+  top: 50%;
+  right: 48px;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+  z-index: 1;
+}
+.feynman__background {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 637px;
+  width: 867px;
+  z-index: -1;
 }
