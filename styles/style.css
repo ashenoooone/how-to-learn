@@ -33,12 +33,7 @@
 }
 
 /* и элемента с модификатором вида ключ-значение */
-.table__cell_theme_dark {
-  width: 200px;
-  color: white;
-  margin-right: 0;
-  margin-top: 80px;
-}
+
 .logo__place_header {
   position: absolute;
   top: 30px;
@@ -106,11 +101,14 @@
 .two-columns__paragraph:nth-of-type(2) {
   margin: 30px 0;
 }
+.digits {
+  padding-top: 100px;
+}
 .section-title {
   line-height: 1.15;
   font-size: 60px;
   font-weight: bold;
-  margin: 100px auto 20px auto;
+  margin: 0 auto;
   width: 60%;
   text-align: center;
 }
@@ -124,10 +122,12 @@
 }
 .table {
   width: 1100px;
-  margin: 0 auto 100px auto;
+  margin: 0 auto;
+  z-index: 2;
 }
 .table__cell {
   width: 250px;
+  z-index: 1;
 }
 .table__heading {
   line-height: 1.15;
@@ -139,7 +139,6 @@
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
-  margin: 20px 0;
 }
 .table__source-of-information {
   margin: 0;
@@ -186,7 +185,48 @@
   position: absolute;
   bottom: 0;
   left: 0;
-  height: 637px;
-  width: 867px;
   z-index: -1;
+}
+.kaufman {
+  background-color: #1f1f1f;
+  position: relative;
+  overflow: hidden;
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+.section-title_theme_dark {
+  color: white;
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: bold;
+}
+.section-subtitle_theme_dark {
+  color: white;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+.kaufman__triangle {
+  position: absolute;
+  top: 0;
+  right: -210px;
+  z-index: auto;
+}
+.table__cell_theme_dark {
+  width: 200px;
+  margin: 0;
+  color: white;
+}
+.table__row_theme_dark {
+  margin-top: 80px;
+}
+.table__heading_theme_dark {
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bold;
+}
+.table__text_theme_dark {
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
 }
