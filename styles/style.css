@@ -33,7 +33,7 @@
 
 /* и элемента с модификатором вида ключ-значение */
 
-.logo__place_header {
+.logo_place_header {
   position: absolute;
   top: 30px;
   left: 64px;
@@ -156,15 +156,6 @@
   font-weight: normal;
   margin:20px 0 0 0;
 }
-.ta
-.table__source-of-information {
-  margin: 0;
-}
-.table__row {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 60px;
-}
 .feynman {
   min-height: 890px;
   position: relative;
@@ -217,10 +208,6 @@
   overflow: hidden;
   padding-top: 90px;
   padding-bottom: 90px;
-  background-image: url("../images/kaufman-triangle.svg");
-  background-repeat: no-repeat;
-  background-position: top right -210px;
-  background-size: 877px 877px;
 }
 .section-title_theme_dark {
   color: white;
@@ -236,9 +223,12 @@
 }
 .kaufman__triangle {
   position: absolute;
+  width: 877px;
+  height: 877px;
   top: 0;
   right: -210px;
-  z-index: auto;
+  background-image: url("../images/kaufman-triangle.svg");
+  background-size: 877px 877px;
 }
 .table__cell_theme_dark {
   width: 200px;
@@ -303,11 +293,9 @@
   margin:0;
 }
 .footer__column-links {
-  display: flex;
-  flex-direction: column;
   margin: 20px 0 0 0;
   padding: 0 0 16px 0;
-  justify-content: space-around;
+  list-style-type: none;
 }
 .footer__column-link {
   line-height: 30px;
@@ -326,9 +314,4 @@
   margin-right: 10px;
   width:16px;
   height:16px;
-}
-ul{
-  margin:0;
-  padding: 0;
-  list-style-type: none;
 }
