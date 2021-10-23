@@ -5,6 +5,7 @@
   color: white;
   text-decoration: none;
 }
-.footer__column-link:hover{
-  text-decoration: underline;
+.footer__column-link:hover {
+  opacity: 50%;
+  transition: opacity 0.5s ease;
 }

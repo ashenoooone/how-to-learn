@@ -1,7 +1,9 @@
-.header__link{
+.header__link {
   text-decoration: none;
   color: #2f80ed;
+  display: inline-block;
 }
-.header__link:hover{
-  text-decoration: underline;
+.header__link:hover {
+  opacity: 50%;
+  transition: opacity 0.5s ease;
 }
