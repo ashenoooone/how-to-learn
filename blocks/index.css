@@ -62,3 +62,11 @@
 @import url(two-columns/__span-accent/two-columns__span-accent.css);
 /* rotation */
 @import url(rotation/rotation.css);
+/* techniques */
+@import url(techniques/techniques.css);
+/* cards */
+@import url(cards/cards.css);
+@import url(cards/__description/cards__description.css);
+@import url(cards/__img/cards__img.css);
+@import url(cards/__item/cards__item.css);
+@import url(cards/__title/cards__title.css);
