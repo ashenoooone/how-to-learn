@@ -2,8 +2,9 @@
   text-decoration: none;
   color: #2f80ed;
   display: inline-block;
+  transition: opacity 0.5s ease;
+  z-index: 2;
 }
 .header__link:hover {
   opacity: 50%;
-  transition: opacity 0.5s ease;
 }

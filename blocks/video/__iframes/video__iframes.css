@@ -1,5 +1,5 @@
 .video__iframes {
   margin-top: 50px;
   display: flex;
-  margin-bottom: -60px;
+  transform: translate(0, 60px);
 }
